@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Karla", sans-serif;
+    background-color: hsl(204, 43%, 93%);
+}
+.container {
+    margin: 10% auto;
+    max-width: 632px;
+}
+.box1 {
+    background-color: hsl(0, 0%, 100%);
+    padding: 6%;
+    border-radius: 10px;
+}
+.box1 h1 {
+    font-size: 23px;
+    font-weight: 700;
+    color: hsl(179, 62%, 43%);
+    margin-bottom: 25px;
+    letter-spacing: 0.5px;
+}
+.box1 h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(71, 73%, 54%);
+    margin-bottom: 10px;
+    letter-spacing: -0.2px;
+}
+.box1 p {
+    font-size: 16px;
+    color: hsl(218, 22%, 67%);
+    margin-bottom: 5px;
+    line-height: 25px;
+    letter-spacing: -0.1px;
+}
+
+.two-boxes {
+    display: flex;
+}
+.box2 {
+    width: 100%;
+    padding: 6% 0 6% 6%;
+    background-color: hsl(179, 62%, 43%);
+}
+.box2 h1 {
+    font-size: 17px;
+    font-weight: 700;
+    color: hsl(204, 43%, 93%);
+    margin-bottom: 18px;
+    letter-spacing: 0.5px;
+}
+.box2 h2 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 5px;
+}
+#a{
+    font-size: 32px;
+    color: hsl(204, 43%, 93%);
+}
+.box2 h2 span{
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(204, 43%, 80%);
+}
+.box2 p {
+    font-size: 16px;
+    color: hsl(204, 43%, 93%);
+    margin-bottom: 40px;
+    line-height: 25px;
+}
+.box2 a {
+    text-align: center;
+    background-color: hsl(71, 73%, 54%);
+    color: hsl(204, 43%, 93%);
+    text-decoration: none;
+    padding: 15px 90px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.box3 {
+    width: 100%;
+    padding: 6% 0 6% 6%;
+    background-color: hsl(179, 62%, 60%);
+}
+
+.box3 h1 {
+    font-size: 17px;
+    font-weight: 700;
+    color: hsl(204, 43%, 93%);
+    margin-bottom: 18px;
+    letter-spacing: 0.5px;
+}
+.box3 p {
+    font-size: 14px;
+    color: hsl(204, 43%, 93%);
+    line-height: 20px;
+}

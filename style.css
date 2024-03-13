@@ -11,11 +11,12 @@ body {
 .container {
     margin: 10% auto;
     max-width: 632px;
+    border-radius: 10px 10px 0 0;
 }
 .box1 {
     background-color: hsl(0, 0%, 100%);
     padding: 6%;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
 }
 .box1 h1 {
     font-size: 23px;
@@ -87,7 +88,7 @@ body {
 .box3 {
     width: 100%;
     padding: 6% 0 6% 6%;
-    background-color: hsl(179, 62%, 60%);
+    background-color: hsl(179, 62%, 45%);
 }
 
 .box3 h1 {
@@ -101,4 +102,14 @@ body {
     font-size: 14px;
     color: hsl(204, 43%, 93%);
     line-height: 20px;
+}
+
+@media (max-width: 610px) {
+    body {
+        margin: 15% 10%;
+    }
+    .two-boxes {
+        display: flex;
+        flex-direction: column;
+    }
 }
